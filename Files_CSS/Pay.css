@@ -1,36 +1,27 @@
-.Title{
+  .Title{
     text-align: center;
   }
   
-
   .Search { 
-  margin-right: 10px;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  top: 5px;
-  right: 10px;
-  margin-top: -10px;
-  }
-
-  
-
-  .Last_Point {
-    
+    margin-right: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    top: 5px;
+    right: 10px;
+    margin-top: -10px;
   }
   
   .Background_footer .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
   
   .Exc_1{
     left: 130px;
     top: 10px;
     position: absolute;
-    
-    
     font-weight: bold;
   }
   
@@ -38,8 +29,6 @@
     left: 130px;
     top: 30px;
     position: absolute;
-    
-    
     font-weight: bold;
   }
   
@@ -56,37 +45,32 @@
     position: absolute;
     right: 10px;
     margin-top: 20px;
-    
-    
   }
   
   .Number_Phone_1 p {
-  font-family: arial;
-  font-size: 25px;
-  color: black;
-  font-weight: bold;
-}
+    font-family: arial;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+  }
 
-.Number_Phone_1 {
-  margin-right: 13px;
-  display: inline-block;
-  vertical-align: left;
-  position: absolute;
-  right: 10px;
-  margin-top: 55px;
-  
-  
-}
+  .Number_Phone_1 {
+    margin-right: 13px;
+    display: inline-block;
+    vertical-align: left;
+    position: absolute;
+    right: 10px;
+    margin-top: 55px;
+  }
 
   .Background{
-  min-height:70%;
-  background-image: url('../Images/gradient-geometric-background_23-2148808998(1).jpg'); 
-  background-size: cover; 
-  background-position: center;
-  background-attachment: scroll;
-}
+    min-height:70%;
+    background-image: url('../Images/gradient-geometric-background_23-2148808998(1).jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: scroll;
+  }
 
-  
   .circle {
     width: 70px; 
     height: 70px; 
@@ -95,10 +79,7 @@
     border-radius: 100%; 
     position: absolute;
     cursor: pointer;
-    
-    
   }
-  
   
   .Number_Phone h1 {
     font-family: arial;
@@ -108,53 +89,37 @@
     
   }
   .Number_Phone_1 h1 {
-  font-family: arial;
-  font-size: 25px;
-  color: black;
-  vertical-align: right;
-  
-}   
+    font-family: arial;
+    font-size: 25px;
+    color: black;
+    vertical-align: right;
+  }   
 
-  
-  
- 
-  .First {
-   
-    
-  }
   .Second {
-    
     max-width: 100%;
     display: flex;
     margin-left: 0 auto;
-    
   }
-  
   .Third {
-    
     max-width: 100%;
     display: flex;
     margin: 0 auto;
-    
   }
   .Fourth {
-    
     max-width: 100%;
     display: flex;
     margin: 0 auto;
-    
   }
 
   html {
     height:100%;
     margin:0;
-    
-}
+  }
   
-header {
-  height: 15%;
-  background: rgb(209, 209, 209);
-}
+  header {
+    height: 15%;
+    background: rgb(209, 209, 209);
+  }
     
   footer {
     margin-top: 200px;
@@ -176,105 +141,98 @@ header {
     font-weight: bold;
     font-size: 33px;
     margin: 0; 
-    
-    
   }
   .word:hover {
     text-decoration: underline; 
     cursor: pointer; 
   }
 
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
+  .col-xl-12 .Title_Main {
+    font-size: 50px;
+    margin-bottom : 60px; 
+  }
+  .col-xl-6 .Description {
+    font-size: 38px;
+  }
+  .col-xl-4 .Description {
+    font-size: 38px;
+  }
 
+  .circle {
+    top: 15px;
+  }
     
+  .Exc_1 {
+    font-size: 26px;
+    left: 110px;
+    top: 20px;
+  }
     
-    .col-xl-12 .Title_Main {
-      font-size: 50px;
-      margin-bottom : 60px;
-      
-    }
-    .col-xl-6 .Description {
-         font-size: 38px;
-    }
-    .col-xl-4 .Description {
-         font-size: 38px;
-    }
+  .Exc_2 {
+    font-size: 26px;
+    left: 110px;
+    top: 45px;
+  }
+    
+  .Number_Phone p {
+    font-size: 26px;
+    top:-20px;
+  }
 
-    .circle {
-      top: 15px;
-    }
+  .Number_Phone_1 p {
+    font-size: 26px;
+    top:-15px;
+  }
     
-    .Exc_1 {
-      font-size: 26px;
-      left: 110px;
-      top: 20px;
-    }
-    
-    .Exc_2 {
-      font-size: 26px;
-      left: 110px;
-      top: 45px;
-    }
-    
-    .Number_Phone p {
-      font-size: 26px;
-      top:-20px;
-    }
-
-    .Number_Phone_1 p {
-      font-size: 26px;
-      top:-15px;
-    }
-    
-   .Search {
+  .Search {
     font-size: 22px;
     margin-top: -5px; 
     margin-left: 2px;
     padding-bottom: 4vh;
-    }
-
-    header {
-      height: 21%;
-    }
-
-      footer {
-        margin-top: 400px;
-        height:15%;
-      }
-    
-  
   }
-  @media (min-width: 992px) and (max-width: 1199px) {
-  
+
+  header {
+    height: 21%;
+  }
+
+  footer {
+    margin-top: 400px;
+    height:15%;
+  }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
   .word p {
     font-size: 30px;
   }
 
-    .Background_footer {
-      background: rgb(209, 209, 209);
-      width: 100%;
-      display: flex;
-      margin-left: 0 auto;
-      height: 160px;
-      margin-top: 370px;
-    }
+  .Background_footer {
+    background: rgb(209, 209, 209);
+    width: 100%;
+    display: flex;
+    margin-left: 0 auto;
+    height: 160px;
+    margin-top: 370px;
+  }
 
-    .col-lg-12 .Title_Main {
-      font-size: 35px;
-      margin-bottom : 60px;
-    }
-    .col-lg-6 .Description {
-        font-size: 28px;
-   }
-   .col-lg-4 .Description {
-        font-size: 28px;
-   }
+  .col-lg-12 .Title_Main {
+    font-size: 35px;
+    margin-bottom : 60px;
+  }
+  .col-lg-6 .Description {
+    font-size: 28px;
+  }
+  .col-lg-4 .Description {
+    font-size: 28px;
+  }
 
-    .circle {
-      top: 15px;
-    }
+  .circle {
+    top: 15px;
+  }
     
-    .Exc_1 {
+  .Exc_1 {
     font-size: 23px;
     left: 100px;
     top: 20px;
@@ -290,30 +248,29 @@ header {
     font-size: 23px;
   }
 
-    .Number_Phone_1 p {
-      font-size: 26px;
-      top:-20px;
-    }
+  .Number_Phone_1 p {
+    font-size: 26px;
+    top:-20px;
+  }
     
-   .Search {
+  .Search {
     font-size: 22px;
     margin-top: -15px; 
     margin-left: 2px;
     padding-bottom: 5%;
-    }
-
-    header {
-      height: 27%;
-    }
-
-      footer {
-        margin-top: 400px;
-      }
-    
-    
   }
-  @media (min-width: 768px) and (max-width: 991px) {
+
+  header {
+    height: 27%;
+  }
+
+  footer {
+    margin-top: 400px;
+  }
     
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
   .word {
       margin: 0 30px; 
   }
@@ -322,43 +279,38 @@ header {
     font-size: 22px;
   }
 
-
-  
-   .Search {
+  .Search {
     font-size: 18px;
     margin-top: -15px; 
     margin-left: 2px;
     padding-bottom: 5%;
-    }
+  }
 
+  .Background_footer {
+    background: rgb(209, 209, 209);
+    width: 100%;
+    display: flex;
+    margin-left: 0 auto;
+    height: 160px;
+    margin-top: 370px;
+  }
 
-    .Background_footer {
-      background: rgb(209, 209, 209);
-      width: 100%;
-      display: flex;
-      margin-left: 0 auto;
-      height: 160px;
-      margin-top: 370px;
-    }
+  .col-md-12 .Title_Main {
+    font-size: 40px;
+    margin-bottom : 40px;
+  }
+  .col-md-6 .Description {
+    font-size: 36px;
+  }
+  .col-md-4 .Description {
+    font-size: 36px;
+  }
 
-    .col-md-12 .Title_Main {
-      font-size: 40px;
-      margin-bottom : 40px;
-    }
-    .col-md-6 .Description {
-        font-size: 36px;
-   }
-   .col-md-4 .Description {
-        font-size: 36px;
-   }
-
+  .circle {
+    top: 15px;
+  }
     
-    
-    .circle {
-      top: 15px;
-    }
-    
-    .Exc_1 {
+  .Exc_1 {
     font-size: 22px;
     left: 90px;
     top: 20px;
@@ -374,23 +326,23 @@ header {
     font-size: 22px;
   }
 
-    .Number_Phone_1 p {
+  .Number_Phone_1 p {
     font-size: 22px;
   }
 
-   header {
+  header {
     height: 28%;
   }
 
-      footer {
-        margin-top: 400px;
-      }
-   
+  footer {
+    margin-top: 400px;
   }
-  @media (min-width: 576px) and (max-width: 767px) {
-      
-    .word {
-      margin: 0 20px; 
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+  .word {
+    margin: 0 20px; 
   }
   
   .word p {
@@ -398,42 +350,38 @@ header {
     margin-top: 140px;
   }
 
-
-   
-   .Search {
+  .Search {
     font-size: 15px;
     margin-top: 40px; 
     margin-left: 2px;
     padding-bottom: 5%;
-    }
+  }
 
+  .Background_footer {
+    background: rgb(209, 209, 209);
+    width: 100%;
+    display: flex;
+    margin-left: 0 auto;
+    height: 20%;
+    margin-top: 370px;
+  }
 
-    .Background_footer {
-      background: rgb(209, 209, 209);
-      width: 100%;
-      display: flex;
-      margin-left: 0 auto;
-      height: 20%;
-      margin-top: 370px;
-    }
-
-    .col-sm-12 .Title_Main {
-      font-size: 36px;
-      margin-bottom : 30px;
-    }
-    .col-sm-6 .Description {
-        font-size: 32px;
-   }
-   .col-sm-4 .Description {
-        font-size: 22px;
-   }
-
+  .col-sm-12 .Title_Main {
+    font-size: 36px;
+    margin-bottom : 30px;
+  }
+  .col-sm-6 .Description {
+    font-size: 32px;
+  }
+  .col-sm-4 .Description {
+    font-size: 22px;
+  }
+ 
+  .circle {
+    top: 15px;
+  }
     
-    .circle {
-      top: 15px;
-    }
-    
-    .Exc_1 {
+  .Exc_1 {
     font-size: 20px;
     left: 85px;
     top: 25px;
@@ -449,29 +397,31 @@ header {
     font-size: 20px;
   }
 
-    .Number_Phone {
-      top: 8px;
-    }
+  .Number_Phone {
+    top: 8px;
+  }
     
-    .Number_Phone_1 p {
+  .Number_Phone_1 p {
     font-size: 20px;
     margin-left: 2px;
     margin-top: -10px;
   }
 
-    .Number_Phone_1 {
-      top: 8px;
-    }
+  .Number_Phone_1 {
+    top: 8px;
+  }
 
-    header {
+  header {
     height: 24%;
   }
 
-      footer {
-        margin-top: 400px;
-      }
+  footer {
+    margin-top: 400px;
   }
-  @media (max-width: 576px) {
+
+}
+
+@media (max-width: 576px) {
     .word {
       margin: 0 20px; 
   }
@@ -544,24 +494,20 @@ header {
     .Number_Phone_1  {
       top:-5px;
     }
-
-    
-    
-    
-   header {
+ 
+  header {
     height: 25%;
   }
-
-      
-    footer {
-      margin-top: 400px;
-    }
-    
+ 
+  footer {
+    margin-top: 400px;
   }
-  @media (max-width: 400px) {
-      
-    .word {
-      margin: 0 30px; 
+    
+}
+
+@media (max-width: 400px) { 
+  .word {
+    margin: 0 30px; 
   }
   
   .word p {
@@ -569,42 +515,40 @@ header {
     margin-top: 110px;
   }
 
-    .Background_footer {
-      background: rgb(209, 209, 209);
-      width: 100%;
-      display: flex;
-      margin-left: 0 auto;
-      height: 160px;
-      margin-top: 200px;
-    }
+  .Background_footer {
+    background: rgb(209, 209, 209);
+    width: 100%;
+    display: flex;
+    margin-left: 0 auto;
+    height: 160px;
+    margin-top: 200px;
+  }
     
-   .Search {
+  .Search {
     font-size: 14px;
     margin-top: 40px; 
     margin-left: 2px;
     padding-bottom: 6%;
-    }
+  }
 
-    .col-12 .Title_Main {
-      font-size: 35px;
-      
-    }
-    .col-9 .Description {
-        font-size: 30px;
-   }
-   .col-7 .Description {
-        font-size: 30px;
-   }
+  .col-12 .Title_Main {
+    font-size: 35px; 
+  }
+  .col-9 .Description {
+    font-size: 30px;
+  }
+  .col-7 .Description {
+    font-size: 30px;
+  }
 
+  .circle {
+    width: 55px; 
+    height: 55px; 
+    left: 5px;
+    top: 20px;
+  }
     
-    .circle {
-      width: 55px; 
-      height: 55px; 
-      left: 5px;
-      top: 20px;
-    }
-    
-    .Exc_1 {
+  .Exc_1 {
     font-size: 18px;
     left: 65px;
     top: 25px;
@@ -621,11 +565,11 @@ header {
     margin-top: -5px;
   }
 
-    .Number_Phone  {
-      top:10px;
-    }
+  .Number_Phone  {
+    top:10px;
+  }
     
-    .Number_Phone_1 p {
+  .Number_Phone_1 p {
     font-size: 18px;
     margin-top: -15px;
     margin-right: -3px;
@@ -639,15 +583,15 @@ header {
       height: 26%;
     }
 
-      footer {
-        margin-top: 400px;
-      }
-   
-  }
-  @media (max-width: 360px) {
-      
-    .word {
-      margin: 0 30px; 
+    footer {
+      margin-top: 400px;
+    }
+
+}
+
+@media (max-width: 360px) {
+  .word {
+    margin: 0 30px; 
   }
   
   .word p {
@@ -655,78 +599,75 @@ header {
     margin-top: 100px;
   }
 
-
-    .Background_footer {
-      background: rgb(209, 209, 209);
-      width: 100%;
-      display: flex;
-      margin-left: 0 auto;
-      height: 160px;
-      margin-top: 200px;
-    }
+  .Background_footer {
+    background: rgb(209, 209, 209);
+    width: 100%;
+    display: flex;
+    margin-left: 0 auto;
+    height: 160px;
+    margin-top: 200px;
+  }
     
-   .Search {
+  .Search {
     font-size: 14px;
     margin-top: 30px; 
     margin-left: 2px;
     padding-bottom: 10%;
-    }
+  }
 
-    .col-12 .Title_Main {
-      font-size: 28px;
-      
-    }
-    .col-9 .Description {
-        font-size: 25px;
-    }
-    .col-7 .Description {
-        font-size: 25px;
-    }
+  .col-12 .Title_Main {
+    font-size: 28px; 
+  }
+  .col-9 .Description {
+    font-size: 25px;
+  }
+  .col-7 .Description {
+    font-size: 25px;
+  }
 
+  .circle {
+    width: 55px; 
+    height: 55px; 
+    left: 5px;
+    top: 20px;
+  }
     
-    .circle {
-      width: 55px; 
-      height: 55px; 
-      left: 5px;
-      top: 20px;
-    }
+  .Exc_1 {
+    font-size: 16px;
+    left: 65px;
+    top: 25px;
+  }
     
-   .Exc_1 {
-      font-size: 16px;
-      left: 65px;
-      top: 25px;
-    }
+  .Exc_2 {
+    font-size: 16px;
+    left: 65px;
+    top:45px;
+  }
     
-    .Exc_2 {
-      font-size: 16px;
-      left: 65px;
-      top:45px;
-    }
-    
-    .Number_Phone p {
-      font-size: 16px;
-    }
+  .Number_Phone p {
+    font-size: 16px;
+  }
 
-    .Number_Phone  {
-      top:10px;
-    }
+  .Number_Phone  {
+    top:10px;
+  }
     
-    .Number_Phone_1 p {
+  .Number_Phone_1 p {
     font-size: 16px;
     margin-top: -15px;
     margin-right: -3px;
   }
 
-    .Number_Phone_1  {
-      top: 5px;
-    }
-    
-    header {
-      height: 33%;
-    }
-
-      footer {
-        margin-top: 400px;
-      }
-   
+  .Number_Phone_1  {
+    top: 5px;
   }
+    
+  header {
+    height: 33%;
+  }
+
+  footer {
+    margin-top: 400px;
+  }
+   
+}
