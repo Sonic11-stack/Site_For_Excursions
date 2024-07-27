@@ -8,7 +8,7 @@ function redirectToCallPhone_1() {
 }
 function redirectToMainPage() {
     
-    window.location.href = '../index.html';
+    window.location.href = 'Site.html';
 }
 function redirectToPageContacts() {
     
