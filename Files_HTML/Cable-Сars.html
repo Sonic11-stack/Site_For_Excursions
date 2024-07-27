@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
-  
   <title>Канатные дороги Геленджика</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link type="image/x-icon" href="../Logo/Group 2.ico" rel="shortcut icon">
   <link type="Image/x-icon" href="../Logo/Group 2.ico" rel="icon">
-  <script src="../Files_JavaScript/Pay.js"></script>
+  <script src="../Files_JavaScript/Pay.js" defer></script>
   <script src="../Files_JavaScript/Clicker.js"></script>
   <script src="../Files_JavaScript/Visible_Things.js"></script>
+  <script src="../Files_JavaScript/Search_Words.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
@@ -26,23 +25,15 @@
     }
     @font-face {
         font-family: 'Bryndan Write';
-        
         src: url('../ofont.ru_Bryndan Write.ttf') format('truetype');
-        
-       
         font-weight: normal;
     }
-
   </style>
-  
 </head>
-
 
 <body>
   <header>
-    
     <section class = "First">
-      
       <div class = "circle animate__animated" onclick="redirectToMainPage()">
         <img src="../Logo/Group 2.png" alt="Иконка сайта">
       </div>
@@ -73,59 +64,25 @@
 
       <div class="line">
         <a href="../Files_HTML/Contacts.html" class="word"> <p class = "animate__animated">Контакты</p></a>
-        
         <a href="../Files_HTML/Payment.html" class="word"> <p class = "animate__animated">Блог</p></a>
     </div>
-      <div class = "Search animate__animated">
-        <form id="searchForm">
-          <input type="text" id="searchInput" list="keywords" placeholder="Поиск по экскурсиям" style = "border-radius: 5px; outline: 1px solid #000;">
-          <datalist id="keywords">
-              <option value="Квадроцикл"> <option value="Абрау-Дюрсо">
-              <option value="Электробайк"> <option value="Дайвинг">
-              <option value="Экскурсии"> <option value="Арена Колизей">
-              <option value="Новороссийск"> <option value="Дельфинарий">
-              <option value="Лотосы"> <option value="Тамань">
-              <option value="Старый парк"> <option value="Канатные дороги">
-              <option value="Сафари"> <option value="Олимп">
-              <option value="Кавказское гостеприимство"> <option value="Сочи">
-              <option value="Лаго-Наки"> <option value="Водопады">
-              <option value="Пшадские водопады"> <option value="Жане">
-              <option value="Куаго"> <option value="Плесецкие водопады">
-              <option value="Гебиусские водопады"> <option value="Абхазия">
-              <option value="Гуамское ущелье"> <option value="Конные прогулки">
-              <option value="Грозовые ворота"> <option value="Пшада">
-              <option value="Ночной Геленджик"> <option value="Жилье">
-              <option value="Яхты"> <option value="Морская рыбалка">
-              <option value="Ночная дискотека"> <option value="Пляж Сосновка">
-              <option value="Катера"> <option value="Скала Парус">
-              <option value="Анимация в море"> <option value="Джек Воробей">
-              <option value="Рио"> <option value="На закат">
-              <option value="Джиппинг"> <option value="Автобусные экскурсии">
-              <option value="Морские прогулки"> <option value="Экстрим">
-              <option value="Природа Геленджика"> <option value = "Золотая бухта">
-            
-          </datalist>
-          
-      </form>
-      </div>
-    
+
+    <div class = "Invisible_Line">
+    </div> 
   </section>
   </header>
+
 <div class = "Background"> 
   <section class = "Title">
     <div class="container">
       <div class="row">
-<div class = "col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-  
+    <div class = "col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <p class = "Title_Main animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; color: black;  "> 
       Канатные дороги Геленджика
-
     </p>
-  
-</div>
+    </div>
       </div>
     </div>
- 
 </section>
 
 <section class = "Second">
@@ -138,15 +95,12 @@
         cursor: pointer;
         text-align: center;
         max-width: 100%;
-        
-         background-size: cover; 
-  background-position: center;">
-   <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center;  
-    margin-bottom: 50px;">  
+        background-size: cover; 
+        background-position: center;">
+   <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center; margin-bottom: 50px;">  
      Сафари
 </p>
       </div>
-        
       </div>
       
       <div class="col-9 col-sm-8 col-md-6 col-lg-6 col-xl-6" onclick="redirectToPageOlympus()">
@@ -157,62 +111,48 @@
           max-width: 100%;
           background-size: cover; 
           background-position: center;">
-     <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center; 
-     ">  
+     <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center;">  
        Олимп
  </p>
         </div>
       </div>
-      
-      
     </div>
   </div>
 </section>
 
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        
       </script>
       
       <footer> 
-        
         <section class = "Background_footer">
-          
           <div class="container">
             <div class="row">
               <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2" onclick="redirectToVK()">
                 <div class="text-center animate__animated">
                 <img src="../Logo/VK com.png" alt="Иконка VK" style = "
-                
                 cursor: pointer;
                 max-width: 70%;
-                
-                 background-size: cover; 
-          background-position: center;">
+                background-size: cover; 
+                background-position: center;">
               </div>
-              <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center; 
-                ">  
+              <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center;">  
                   VK
             </p>
-                
               </div>
 
               <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2" onclick="redirectToPageWhatsapp()">
                 <div class="text-center animate__animated">
                 <img src="../Logo/WhatsApp(1).png" alt="Иконка VK" style = "
-                
                 cursor: pointer;
                 max-width: 70%;
-                
-                 background-size: cover; 
-          background-position: center;">
+                background-size: cover; 
+                background-position: center;">
               </div>
-              <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center; 
-                ">  
+              <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center;">  
                   WhatsApp
             </p>
-                
               </div>
+
               <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2" onclick="redirectToPageTelegram()">
                 <div class="text-center animate__animated">
                 <img src="../Logo/Telegram App(1).png" alt="Иконка VK" style = "
@@ -221,11 +161,9 @@
                 background-size: cover;    
                 background-position: center;">
               </div>
-              <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center; 
-                ">  
+              <p class = "Description animate__animated" style = "font-family: 'Bryndan Write'; font-style: italic; text-align: center;">  
                   Telegram
             </p>
-                
               </div>
             </div>
           </div>
@@ -233,7 +171,5 @@
       </footer>
     </div>
   </body>
-
-
 
 </html>
